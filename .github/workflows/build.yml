@@ -74,7 +74,7 @@ jobs:
         tag_name: iStoreOS-24.10.8-x86-efi
         files: |
           imagebuilder/bin/targets/x86/64/*squashfs-combined-efi.img.gz
-        token: ${{ secrets.GITHUB_TOKEN }}
+        token: ${{ secrets.GIT_TOKEN }}
       env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GIT_TOKEN }}
 
